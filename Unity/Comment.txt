@@ -1,1 +1,3 @@
-Unity - 유니티 관련 코드
+[Unity] 유니티 관련 코드
+
+CamerFollow.cs - 스무스한 카메라 움직임을 구현한 코드
