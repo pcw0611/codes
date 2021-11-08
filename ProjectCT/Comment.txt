@@ -1,4 +1,0 @@
-ProjectCT - 코딩 테스트 기출 알고리즘을 작성 및 정리
-
-Rank.cpp - 메모리 할당 없이 등수를 구하는 문제
-RotationArrayp.cpp - 1차원 배열을 회전 하는 문제
