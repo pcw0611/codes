@@ -2,3 +2,4 @@
 
 Rank.cpp - 메모리 할당 없이 등수를 구하는 문제
 RotationArray.cpp - 1차원 배열을 회전 하는 문제
+Snail.cpp - 정방 및 직방배열에서 달팽이 모양으로 숫자 배열을 하는 문제
