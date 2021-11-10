@@ -8,7 +8,7 @@ class Program
 		arr.Add( 7 );
 		arr.Add( 8 );
 		arr.Add( 9 );
-		IIterator iter = arr.MakerIterator();
+		IIterator iter = arr.MakeIterator();
 
 		iter.Begin();
 		while( iter.MoveNext() )

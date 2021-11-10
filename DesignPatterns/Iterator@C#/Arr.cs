@@ -79,7 +79,7 @@ class Arr : IContainer
 		return -1;
 	}
 
-	public IIterator MakerIterator()
+	public IIterator MakeIterator()
 	{
 		return new ArrIterator( buffer, Count );
 	}

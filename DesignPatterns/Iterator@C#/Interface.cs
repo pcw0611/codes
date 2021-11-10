@@ -7,7 +7,7 @@ interface IContainer
 	bool Add( Object obj );
 	void Remove( Object obj );
 	void Clear();
-	IIterator MakerIterator();
+	IIterator MakeIterator();
 }
 
 public interface IIterator
