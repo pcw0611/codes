@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Palindrome
+class palindrome
 {
 	static void Main( string[] args )
 	{

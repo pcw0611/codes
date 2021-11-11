@@ -20,7 +20,6 @@ void Rotate(int* sour, int rotDir)
 }
 int main()
 {
-
 	int arr[] = { 1, 2, 4, 5, 7 };
 
 	Rotate(arr, 2);
