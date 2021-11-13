@@ -6,16 +6,21 @@
 
 유니티 엔진으로 개발 중이고, 상용화 게임 내 테크닉 위주로 선보일 예정입니다.
 
-### 프리뷰
+## 프리뷰
+
 #####
+
 > 인트로 씬 
 
 <img src="GIF_0.gif">
-###
+
+#####
+
 > 전투 화면
 
 <img src="GIF_1.gif">
 
-#
-#
+&nbsp;
+&nbsp;
+
 ©2017 Hypergryph Co.,ltd. All Rights Reserved./©2018 Yostar Inc. All rights reserved.
