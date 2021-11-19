@@ -4,7 +4,7 @@ class palindrome
 {
 	static void Main( string[] args )
 	{
-		Console.WriteLine( IsPalindrome("madam" ) );
+		Console.WriteLine( IsPalindrome( "madam" ) );
 	}
 
 	static public bool IsPalindrome( string arg )
@@ -15,6 +15,10 @@ class palindrome
 				return false;
 		}
 
+		for ( int i = 0; i < 10; ++i )
+		{
+
+		}
 		return true;
 	}
 }
