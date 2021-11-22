@@ -56,11 +56,12 @@ Dialog는 Screenplay(대본)을 로드해서 사용할 수 있도록, Screenplay
 
 
 
-> 미비 건
+> 미비 건 (더 구현하고 싶은 것들)
 * 각종 스크린 효과
 * 선택지
 * BGM/SE 재생
 * Fade In / Out
+* 다이얼로그 툴
 
 &nbsp;
 &nbsp;
