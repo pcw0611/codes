@@ -59,6 +59,7 @@ View 클래스인 Dialog(:Monobehaviour)는 단순히 명령 이벤트를 받아
 Dialog는 Screenplay(대본)을 로드해서 사용할 수 있도록, Screenplay를 하위 모듈화합니다. 또한 Screenplay에서 발생되는 커맨드들의 이벤트 응답을 받을 수 있게 Dialog는 IScreenplayEvent 인터페이스를 상속 받습니다.
 
 대본과 관련된 이벤트가 발생한 경우, 관련된 데이터도 함께 전달 받고 Dialog는 그에 따른 UI 처리를 진행합니다.
+
 &nbsp;
 > 미비 건 (더 구현하고 싶은 것들)
 * 각종 스크린 효과
