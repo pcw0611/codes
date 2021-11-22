@@ -63,6 +63,8 @@ Dialog는 Screenplay(대본)을 로드해서 사용할 수 있도록, Screenplay
 * BGM/SE 재생
 * Fade In / Out
 * 다이얼로그 툴
+* 스킵
+* 메세지 로그
 
 &nbsp;
 
