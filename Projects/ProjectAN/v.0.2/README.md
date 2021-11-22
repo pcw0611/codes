@@ -11,9 +11,7 @@
 &nbsp;
 > Sample
 
-<img src="PNG_0.png" Width=277 Height=160>
-<img src="JPEG_0.jpeg" Width=277 Height=160>
-<img src="JPG_1.jpg" Width=277 Height=160>
+<img src="PNG_0.png" Width=277 Height=160><img src="JPEG_0.jpeg" Width=277 Height=160><img src="JPG_1.jpg" Width=277 Height=160>
 
 &nbsp;
 > 메커니즘
