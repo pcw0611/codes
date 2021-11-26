@@ -7,10 +7,16 @@ namespace Battle
 {
 	public class BattleManager : MonoBehaviour, IDObjectStateListener
 	{
-		private class Round
+		private readonly struct Round
 		{
-			public int										round;
-			public List<MobID>								mobIds = new List<MobID>();
+			public readonly int					round;
+			public readonly List<MobID>			mobIds;
+
+			public Round( int round, List<MobID> mobIds )
+			{
+				this.round	= round;
+				this.mobIds = mobIds;
+			}
 		}
 
 		[SerializeField] private ScreenManager				screenManager;
@@ -49,16 +55,16 @@ namespace Battle
 
 		private void SetRounds()
 		{
-			Round round = new Round();
+			Round round = new Round( 1, new List<MobID>() );
 			round.mobIds.Add( MobID.PROTOTYPE_1 );
 			rounds.Enqueue( round );
 
-			round = new Round();
+			round = new Round( 2, new List<MobID>() );
 			round.mobIds.Add( MobID.PROTOTYPE_1 );
 			round.mobIds.Add( MobID.PROTOTYPE_1 );
 			rounds.Enqueue( round );
 
-			round = new Round();
+			round = new Round( 3, new List<MobID>() );
 			round.mobIds.Add( MobID.PROTOTYPE_1 );
 			round.mobIds.Add( MobID.PROTOTYPE_1 );
 			round.mobIds.Add( MobID.PROTOTYPE_1 );
@@ -68,13 +74,11 @@ namespace Battle
 		}
 		private void SetOnStartRound()
 		{
-			System.Action onStartRound = () =>
+			onStartRound = () =>
 			{
 				DObjectFactory mobFactory   = new MobFactory();
 
 				Round round = rounds.Dequeue();
-				if ( null == round )
-					return;
 
 				for ( int i = 0; i < round.mobIds.Count; ++i )
 				{

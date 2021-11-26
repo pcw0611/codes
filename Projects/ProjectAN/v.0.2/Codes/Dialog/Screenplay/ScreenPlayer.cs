@@ -8,7 +8,7 @@ namespace Dialog
 {
 	public class Screenplayer
 	{
-		public static Screenplayer Load( string filePath, IScreenplayListener screenplayEvent )
+		public static Screenplayer Load( string filePath, IScreenplayListener screenplayListener )
 		{
 			StreamReader reader = new StreamReader( filePath );
 
@@ -19,12 +19,12 @@ namespace Dialog
 
 			reader.Close();
 
-			return new Screenplayer( texts, screenplayEvent );
+			return new Screenplayer( texts, screenplayListener );
 		}
 
-		private Queue<Command>			commands				= new Queue<Command>();
+		private Queue<Command>			commands					= new Queue<Command>();
 
-		public IScreenplayListener		screenplayListener		{ set; get; }
+		public IScreenplayListener		screenplayListener			{ set; get; }
 
 		public Screenplayer( List<string> texts, IScreenplayListener screenplayEvent )
 		{

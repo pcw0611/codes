@@ -150,7 +150,7 @@ namespace Dialog
 						++i;
 					}
 
-					charCmdInfo.focus = Int32.Parse( focusValue );
+					charCmdInfo = new  CharCommandInfo( Int32.Parse( focusValue ), new List<string>() );
 					break;
 				}
 			}
@@ -201,9 +201,15 @@ namespace Dialog
 		}
 	}
 
-	public class CharCommandInfo
+	public readonly struct CharCommandInfo
 	{
-		public int				focus;
-		public List<string>		names = new List<string>();
+		public readonly int				focus;
+		public readonly List<string>	names;
+
+		public CharCommandInfo( int focus, List<string> names )
+		{
+			this.focus = focus;
+			this.names = new List<string>();
+		}
 	}
 }
