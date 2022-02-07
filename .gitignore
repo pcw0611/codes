@@ -1,1 +1,9 @@
-!.cs
+*
+!*.cs
+!*.java
+!*/
+*/*/Library
+*/*/Assets/Oculus
+*/*/Assets/PostProcessing
+*/*/Assets/_External
+*/*/Assets/Plugins
