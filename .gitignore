@@ -1,9 +1,12 @@
 *
+!*.gif
+!*.md
 !*.cs
 !*.java
 !*/
 */*/Library
 */*/Assets/Oculus
+*/*/Assets/Spine
 */*/Assets/PostProcessing
 */*/Assets/_External
 */*/Assets/Plugins
