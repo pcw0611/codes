@@ -1,9 +1,8 @@
-*
-!*.gif
+/*
+!/portfolios/
 !*.md
 !*.cs
 !*.java
-!*/
 */*/Library
 */*/Assets/Oculus
 */*/Assets/Spine
